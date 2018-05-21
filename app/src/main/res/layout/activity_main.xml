@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.db.circularanimateddrawable.MainActivity">
+
+    <com.db.circularanimateddrawable.widgets.CircularProgressButton
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/circular_text"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:finalCornerAngle="100dp"
+        app:initialCornerAngle="50dp"
+        app:spinning_bar_color="@color/colorPrimary"
+        app:spinning_bar_padding="@dimen/padding_smallest"
+        app:spinning_bar_width="4dp" />
+
+</LinearLayout>
